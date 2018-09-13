@@ -1,0 +1,155 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="v1">
+        <item name="android:layout_width">369dp</item>
+        <item name="android:layout_height">205dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">#fffff7</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="v2">
+        <item name="android:layout_width">369dp</item>
+        <item name="android:layout_height">205dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:background">#fffff7</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="v3">
+        <item name="android:layout_width">369dp</item>
+        <item name="android:layout_height">205dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:background">#fffff7</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="i1">
+        <item name="android:layout_width">98dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">14dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+
+    <style name="ck1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignTop">@+id/imageView</item>
+        <item name="android:layout_marginStart">38dp</item>
+        <item name="android:text">Clark Kent</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="ck2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignStart">@+id/textView</item>
+        <item name="android:layout_below">@+id/textView</item>
+        <item name="android:text">Reporter</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="ck3">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">68dp</item>
+        <item name="android:layout_alignEnd">@+id/textView3</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">292dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:text">Reporter</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="bw1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignStart">@+id/textView</item>
+        <item name="android:layout_marginTop">299dp</item>
+        <item name="android:text">Bruce Wayne</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="bw2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignStart">@+id/textView</item>
+        <item name="android:layout_below">@+id/textView9</item>
+        <item name="android:text">Billionaire</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="bw3">
+        <item name="android:layout_width">338dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">61dp</item>
+        <item name="android:text">44th President of the USA. Recepient of the Nobel peace prize (although no one is quite certain what exactly for).</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="bo1">
+        <item name="android:layout_width">338dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">301dp</item>
+        <item name="android:text">Incredibly smart billionaire industrialist and notorious playboy. Also very reclusive. Almost certainly the Batman.</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="i3">
+        <item name="android:layout_width">51dp</item>
+        <item name="android:layout_height">71dp</item>
+        <item name="android:layout_alignEnd">@+id/textView3</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">141dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:cropToPadding">true</item>
+    </style>
+
+    <style name="bo2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignStart">@+id/textView</item>
+        <item name="android:layout_alignTop">@+id/imageView3</item>
+        <item name="android:text">Barack Obama</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="bo3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignStart">@+id/textView</item>
+        <item name="android:layout_below">@+id/textView12</item>
+        <item name="android:text">President of the USA</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="ck4">
+        <item name="android:layout_width">338dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">126dp</item>
+        <item name="android:text">Very quiet bespectacled reporter at the DailyPlanet. Clumsy fellow but well built and looks strikingly familiar. Wonder which celebrity he looks like.</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

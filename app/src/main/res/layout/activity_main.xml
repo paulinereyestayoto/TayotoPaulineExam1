@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9ebe5"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view3"
+        style="@style/v1"
+        android:layout_height="171dp" />
+
+    <View
+        android:id="@+id/view5"
+        style="@style/v2" />
+
+    <View
+        android:id="@+id/view4"
+        style="@style/v3" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/i1"
+        app:srcCompat="@drawable/clarkkent" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/ck1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/ck2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/ck4" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        style="@style/ck3"
+        app:srcCompat="@drawable/brucewayne" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/bw1" />
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/bw2" />
+
+    <TextView
+        android:id="@+id/textView11"
+        style="@style/bw3" />
+
+    <TextView
+        android:id="@+id/textView15"
+        style="@style/bo1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        style="@style/i3"
+        app:srcCompat="@drawable/barackobama" />
+
+    <TextView
+        android:id="@+id/textView12"
+        style="@style/bo2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        style="@style/bo3" />
+
+</RelativeLayout>
